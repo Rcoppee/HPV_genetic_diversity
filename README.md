@@ -9,7 +9,7 @@
  - List of R packages: data.table, dplyr, ggplot2, stringr</p>
  <br>
  <h3>2. Preparing the data</h3>
- <p>xxx</p>
+ <p>Before studying genetic diversity of HPV types, we first applied a common bioinformatics pipeline to produce pileup files (which contain the exhaustive list of bases observed for each position along the genome).</p>
  <br>
  <h3>3. Genetic diversity of HPV types</h3>
  <p>xxx</p>
