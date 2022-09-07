@@ -35,7 +35,8 @@
  <p>At the gene level, a part of the script must be executed for each gene investigated (in the deposited script, we  focus on the E1 gene as an example). The pipeline is then the same than the one used at the genome level. Once the analysis was done for each gene (E1, E2, E4, E6, E7, L1 and L2), all the results are combined and a plot that shows the distribution of samples with APOBEC3-induced mutations among genes is produced.</p>
  <br>
   <h3>5. APOBEC3-induced mutations in HPV types at the genome and gene levels from GenBank sequences</h3>
- <p>xxx</p>
+ <p>To explore APOBEC3-induced mutations among HPV types 6, 11, 16 and 18, you will use the scripts <i><b>apobec_genome_genbank.R</b></i> (genome level) and <i><b>apobec_gene_genbank.R</b></i> (gene level).</p>
+ <p>xxxx</p>
  <br>
  <h3>6. Citation</h3>
  <p>If you use or adapt some scripts for your own work, please cite:</p>
