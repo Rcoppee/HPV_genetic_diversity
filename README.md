@@ -32,7 +32,7 @@
  <p>At the genome level, the pipeline is very similar to the one that evaluates the genetic diversity. The major difference is that we focus on C>T mutations, both in TCW and non-TCW motifs. Systematically, we calculate the ratio(c>t) to identify genome sequences that are enriched in APOBEC3-induced mutations rather than random mutations (we suppose here a ratio(c>t) >= 2 as significant. Two plots are produced after a few minutes:
 <br>- the ratio(c>t) according to each HPV types
 <br>- the ratio(c>t) according to the risk category</p>
- <p>At the gene level, a part of the script must be executed for each gene investigated (in the deposited script, we  focus on the E1 gene as an example). The pipeline is then the same than the one used at the genome level. Once the analysis was done for each gene (E1, E2, E4, E6, E7, L1 and L2), all the results are combined and a plot that shows the distribution of samples with APOBEC3-induced mutations among genes.</p>
+ <p>At the gene level, a part of the script must be executed for each gene investigated (in the deposited script, we  focus on the E1 gene as an example). The pipeline is then the same than the one used at the genome level. Once the analysis was done for each gene (E1, E2, E4, E6, E7, L1 and L2), all the results are combined and a plot that shows the distribution of samples with APOBEC3-induced mutations among genes is produced.</p>
  <br>
   <h3>5. APOBEC3-induced mutations in HPV types at the genome and gene levels from GenBank sequences</h3>
  <p>xxx</p>
