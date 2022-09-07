@@ -28,7 +28,13 @@
 <br>- a focus of the ratio(c>t) on the E6 gene for low and high risk categories</p>
  <br>
   <h3>4. APOBEC3-induced mutations in HPV types at the genome and gene levels using our samples</h3>
- <p>xxx</p>
+ <p>To explore APOBEC3-induced mutations among HPV types and risk categories from our samples, you will use the scripts <i><b>apobec_genome_study.R</b></i> (genome level) and <i><b>apobec_gene_study.R</b></i> (gene level).</p>
+ <br>
+ <p>At the genome level, the pipeline is very similar to the one that evaluates the genetic diversity. The major difference is that we focus on C>T mutations, both in TCW and non-TCW motifs. Systematically, we calculate the ratio(c>t) to identify genome sequences that are enriched in APOBEC3-induced mutations rather than random mutations (we suppose here a ratio(c>t) >= 2 as significant. Two plots are produced after a few minutes:
+<br>- the ratio(c>t) according to each HPV types
+<br>- the ratio(c>t) according to the risk category</p>
+ <br>
+ <p>GENE LEVEL</p>
  <br>
   <h3>5. APOBEC3-induced mutations in HPV types at the genome and gene levels from GenBank sequences</h3>
  <p>xxx</p>
