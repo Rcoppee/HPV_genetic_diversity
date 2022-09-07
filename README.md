@@ -20,7 +20,14 @@
  For <code>samtools mpileup</code>, <code>-d 1000000</code> indicates that we look a maximum of 1 million of reads for each position of the genome.</p>
  <br>
  <h3>3. Genetic diversity of HPV types</h3>
- <p>xxx</p>
+ <p>To explore the genetic diversity of HPV types and per risk category, you will use the script <i><b>genetic_diversity_study.R</b></i>. The script will read some pileup files and both the <i><b>HPV_ref_type.txt</b></i> and <i><b>reference_observed.txt</b></i> files. The analysis will take several minutes (to hours when many samples are investigated). When the analysis is finished, two first plots are generated:
+<br>- the number of mutations per HPV type
+<br>- the number of mutations per risk category
+<br>- the number of mutations per risk category
+<br>- the number of mutations per risk category
+<br> In a second step, the algorithm will read the <i><b> HPV_annotation.gff</b></i> file to perform the analysis at the gene level. After a few minutes, two other plots are produced:
+<br>- the ratio(c>t) per gene and per risk category
+<br>- a focus of the ratio(c>t) on the E6 gene for low and high risk categories</p>
  <br>
   <h3>4. APOBEC3-induced mutations in HPV types at the genome and gene levels using our samples</h3>
  <p>xxx</p>
