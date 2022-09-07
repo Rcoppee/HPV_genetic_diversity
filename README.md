@@ -10,6 +10,14 @@
  <br>
  <h3>2. Preparing the data</h3>
  <p>Before studying genetic diversity of HPV types, we first applied a common bioinformatics pipeline to produce pileup files (which contain the exhaustive list of bases observed for each position along the genome).</p>
+  <p><code> bwa mem hpv_ref_genomes.fasta sample.R1.fastq.gz sample.R2.fastq.gz > sample.sam</code></p>
+ <p><code> samtools view -b -S sample.sam > sample.bam</code></p>
+ <p><code> samtools sort sample.bam -o sample.sorted.bam </code></p>
+ <p><code> samtools index sample.sorted.bam</code></p>
+  <p><code> samtools mpileup -a -f reference_genome.fasta file_sorted.bam > file_sorted.pileup</code></p>
+  <p>where <code>sample</code> is the name of the sample.
+<br>
+ For <code>samtools mpileup</code>, <code>-d 1000000</code> indicates that we look a maximum of 1 million of reads for each position of the genome.</p>
  <br>
  <h3>3. Genetic diversity of HPV types</h3>
  <p>xxx</p>
